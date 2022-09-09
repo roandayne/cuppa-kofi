@@ -7,7 +7,6 @@ import useStyles from "./styles/Navigation.styles"
 const Navigation = () => {
   const { classes, cx } = useStyles()
   const [scroll, setScroll] = useState(false)
-  const [height, setHeight] = useState(75)
 
   const changeBackground = () => {
     if (window.scrollY >= 100) {
@@ -18,11 +17,10 @@ const Navigation = () => {
   }
 
   window.addEventListener("scroll", changeBackground)
-console.log()
+
   return (
     <Box className={cx(classes.container, {
-      [classes.scroll]:
-        scroll,
+      [classes.scroll]: scroll,
     })}>
       <Link className={classes.link} to="/menu">Menu</Link>
       <Link to="/">
