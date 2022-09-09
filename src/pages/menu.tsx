@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from '../components/Layout'
+import Products from '../components/Products'
 
 const menu = () => {
   return (
-    <div>menu</div>
+    <Layout>
+      <Products />
+    </Layout>
   )
 }
 
