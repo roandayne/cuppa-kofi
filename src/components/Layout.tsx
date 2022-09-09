@@ -1,5 +1,6 @@
 import { BoxProps } from '@mantine/core'
 import React from 'react'
+import Navigation from './Navigation'
 
 interface LayoutProps extends BoxProps {
   children?: React.ReactNode;
@@ -8,6 +9,7 @@ interface LayoutProps extends BoxProps {
 const Layout: React.FC<LayoutProps> = ({children, ...props}) => {
   return (
     <>
+      <Navigation />
       {children}
     </>
   )
