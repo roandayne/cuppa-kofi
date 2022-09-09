@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Americano",
+      "image": "./2.png",
+      "category": "iced_coffee",
+      "description": "Intense, deep coffee notes. Nutty, earthy flavors – floral and lighter notes are destroyed by the high temperature.",
+      "sp": {
+        "grande": 50,
+        "venti": 70
+      }
+    },
+    {
+      "id": 2,
+      "name": "Barista Drink",
+      "image": "./3.png",
+      "category": "iced_coffee",
+      "description": "Our Barista drink warmly welcomes customers into Cuppa Kofi. This variety serve you with the right amount of Espresso shots with a splash of breve and nutty cinnamon spice.",
+      "sp": {
+        "grande": 55,
+        "venti": 75
+      }
+    },
+    {
+      "id": 3,
+      "name": "Caramel Macchiato",
+      "image": "./4.png",
+      "category": "iced_coffee",
+      "description": "",
+      "sp": {
+        "grande": 90,
+        "venti": 110
+      }
+    },
+    {
+      "id": 4,
+      "name": "Cold Foam",
+      "image": "./5.png",
+      "category": "iced_coffee",
+      "description": "",
+      "sp": {
+        "grande": 60,
+        "venti": 80
+      }
+    },
+    {
+      "id": 5,
+      "name": "Cold Brew Affogato",
+      "image": "./6.png",
+      "category": "iced_coffee",
+      "description": "",
+      "sp": {
+        "grande": 90,
+        "venti": 120
+      }
+    },
+    {
+      "id": 6,
+      "name": "Matcha Latte",
+      "image": "./7.png",
+      "category": "iced_coffee",
+      "description": "",
+      "sp": {
+        "grande": 80,
+        "venti": 110
+      }
+    },
+    {
+      "id": 7,
+      "name": "Salted Caramel",
+      "image": "./8.png",
+      "category": "iced_coffee",
+      "description": "",
+      "sp": {
+        "grande": 90,
+        "venti": 120
+      }
+    },
+    {
+      "id": 8,
+      "name": "Spanish Latte",
+      "image": "./9.png",
+      "category": "iced_coffee",
+      "description": "",
+      "sp": {
+        "grande": 80,
+        "venti": 110
+      }
+    },
+    {
+      "id": 9,
+      "name": "Brewed Coffee",
+      "image": "./9.png",
+      "category": "hot_coffee",
+      "description": "",
+      "sp": {
+        "grande": 40
+      }
+    },
+    {
+      "id": 10,
+      "name": "Barista Drink",
+      "image": "./9.png",
+      "category": "hot_coffee",
+      "description": "",
+      "sp": {
+        "grande": 55
+      }
+    },
+    {
+      "id": 11,
+      "name": "Caramel Macchiato",
+      "image": "./9.png",
+      "category": "hot_coffee",
+      "description": "",
+      "sp": {
+        "grande": 90
+      }
+    },
+    {
+      "id": 12,
+      "name": "Salted Caramel",
+      "image": "./9.png",
+      "category": "hot_coffee",
+      "description": "",
+      "sp": {
+        "grande": 90
+      }
+    }
+  ],
+  "categories": [
+    "iced_coffee",
+    "hot_coffee",
+    "frappuccino",
+    "sparkling_aide",
+    "non_coffee"
+  ]
+}

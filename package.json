@@ -26,6 +26,7 @@
     "@mantine/modals": "^5.2.5",
     "@mantine/notifications": "^5.2.5",
     "@mantine/prism": "^5.2.5",
+    "axios": "^0.27.2",
     "dayjs": "^1.11.5",
     "embla-carousel-react": "^7.0.2",
     "gatsby": "^4.22.0",
@@ -36,6 +37,7 @@
     "gatsby-source-filesystem": "^4.22.0",
     "gatsby-transformer-sharp": "^4.22.0",
     "react": "^18.1.0",
+    "react-db-google-sheets": "^2.1.1",
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
