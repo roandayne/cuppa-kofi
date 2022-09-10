@@ -18,12 +18,12 @@ const Products = () => {
 
   useEffect(() => {
     const fetchData = () => {
-      axios.get("http://localhost:8001/products")
+      axios.get("/products")
         .then((response) => {
           setProducts(response.data)
           setFiltereProducts(response.data)
         })
-      axios.get("http://localhost:8001/categories")
+      axios.get("/categories")
         .then((res) => setCategories(res.data))
     }
 
