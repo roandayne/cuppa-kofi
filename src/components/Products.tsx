@@ -17,14 +17,11 @@ const Products = () => {
   const [active, setActive] = useState("all")
 
   useEffect(() => {
-    const fetchData = () => {
-      axios.get("/products")
-        .then((response) => {
-          setProducts(response.data)
-          setFiltereProducts(response.data)
-        })
-      axios.get("/categories")
-        .then((res) => setCategories(res.data))
+    const fetchData = async () => {
+      const response = await axios.get("/menu.json")
+      setProducts(response.data.products)
+      setFiltereProducts(response.data.products)
+      setCategories(response.data.categories)
     }
 
     fetchData()

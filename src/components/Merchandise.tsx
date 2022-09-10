@@ -14,15 +14,12 @@ const Merchandise = () => {
   const [products, setProducts] = useState<any>([])
 
   useEffect(() => {
-    const fetchData = () => {
-      axios.get("/products")
-        .then((response) => {
-          setProducts(response.data)
-        })
+    const fetchData = async () => {
+      const response = await axios.get("/menu.json")
+      setProducts(response.data.products)
     }
 
     fetchData()
-    
   }, [])
   
   return (
