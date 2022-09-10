@@ -3,9 +3,9 @@ import { url } from "inspector";
 
 export default createStyles(() => ({
   mainContainer: {
-    height: "100vh",
+    minHeight: "100%",
     display: "flex",
-    padding: "20rem"
+    padding: "10rem 20rem 0 20rem"
   },
   rightContainer: {
     width: "50vw",

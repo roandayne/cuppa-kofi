@@ -16,6 +16,14 @@ export default createStyles(() => ({
   text: {
     textAlign: "center",
     fontSize: "24px",
-    marginTop: "10px"
+    marginTop: "10px",
+  },
+  description: {
+    padding: "20px",
+    textAlign: "center"
+  },
+  price: {
+    padding: "0 20px",
+    textAlign: "center"
   }
 }))

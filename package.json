@@ -18,14 +18,19 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/server": "^11.10.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mantine/carousel": "^5.2.5",
     "@mantine/core": "^5.2.5",
     "@mantine/dates": "^5.2.5",
     "@mantine/dropzone": "^5.2.5",
+    "@mantine/form": "^5.3.0",
     "@mantine/hooks": "^5.2.5",
     "@mantine/modals": "^5.2.5",
     "@mantine/notifications": "^5.2.5",
     "@mantine/prism": "^5.2.5",
+    "@react-icons/all-files": "^4.1.0",
     "axios": "^0.27.2",
     "dayjs": "^1.11.5",
     "embla-carousel-react": "^7.0.2",
@@ -38,7 +43,8 @@
     "gatsby-transformer-sharp": "^4.22.0",
     "react": "^18.1.0",
     "react-db-google-sheets": "^2.1.1",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",

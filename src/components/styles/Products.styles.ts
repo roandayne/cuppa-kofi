@@ -2,7 +2,8 @@ import { createStyles } from "@mantine/core";
 
 export default createStyles(() => ({
   mainContainer: {
-    height: "100vh"
+    minHeight: "100vh",
+    marginBottom: "100px"
   },
   menuContainer: {
     padding: "0 10rem",
@@ -18,5 +19,15 @@ export default createStyles(() => ({
   },
   categoriesContainer: {
     textAlign: "center"
+  },
+  anchor: {
+    margin: "18px",
+    fontSize: "24px",
+    textDecoration: "none !important",
+    color: "black"
+  },
+  activeAnchor: {
+    borderBottom: "6px solid #c8a47e",
+    paddingBottom: "10px"
   }
 }))

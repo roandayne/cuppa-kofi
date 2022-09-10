@@ -2,7 +2,7 @@ import { createStyles } from "@mantine/core";
 
 export default createStyles(() => ({
   container: {
-    height: "100vh",
+    minHeight: "100vh",
     width: "100vw",
     position: "relative",
   },
