@@ -9,14 +9,16 @@ const Navigation = () => {
   const [scroll, setScroll] = useState(false)
 
   const changeBackground = () => {
-    if (window.scrollY >= 100) {
+    if (typeof window !== 'undefined' && window.scrollY >= 100)  {
       setScroll(true)
     } else {
       setScroll(false)
     }
   }
 
-  window.addEventListener("scroll", changeBackground)
+  if (typeof window !== 'undefined') {
+    window.addEventListener("scroll", changeBackground)
+  }
 
   return (
     <Box className={cx(classes.container, {
