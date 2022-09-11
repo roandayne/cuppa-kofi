@@ -32,16 +32,16 @@ const Footer = () => {
         <Box className={classes.logoContainer}>
           <Text>CONNECT WITH US</Text>
           <Box className={classes.instagramContainer}>
-            <FaPhoneAlt style={{marginRight: "10px"}} /><Text>aestillore1@gmail.com</Text>
+            <FaPhoneAlt style={{marginRight: "10px"}} /><Text>0926 207 8836</Text>
           </Box>
           <Box className={classes.instagramContainer}>
-            <FaEnvelope style={{marginRight: "10px"}} /><Text>aestillore1@gmail.com</Text>
+            <FaEnvelope style={{marginRight: "10px"}} /><Text>cuppakofiisabela@gmail.com</Text>
           </Box>
           <Box className={classes.instagramContainer}>
-            <FaInstagram style={{marginRight: "10px"}} /><Text>aestillore1@gmail.com</Text>
+            <FaInstagram style={{marginRight: "10px"}} /><Text>instagram.com/cuppa_kofi</Text>
           </Box>
           <Box className={classes.instagramContainer}>
-            <FaFacebookSquare style={{marginRight: "10px"}} /><Text>aestillore1@gmail.com</Text>
+            <FaFacebookSquare style={{marginRight: "10px"}} /><Text>facebook.com/CuppaKofi</Text>
           </Box>
         </Box>
         <Box className={classes.logoContainer}>

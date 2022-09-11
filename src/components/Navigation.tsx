@@ -28,7 +28,7 @@ const Navigation = () => {
       <Link to="/">
         <Box className={classes.imageContainer}>
           <Image
-            height={100}
+            height={scroll ? 75 : 100}
             src='./logo.png' 
             alt='cuppa-kofi-logo' 
           />

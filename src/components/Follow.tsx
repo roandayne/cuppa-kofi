@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebookSquare, FaEnvelope, FaPhoneAlt } from "react-ico
 const Follow = () => {
   return (
     <BackgroundImage
-      src='./texture.jpg' 
+      src='./giphy.gif' 
       sx={{
         display: "flex",
         flexDirection: "column",
@@ -15,10 +15,15 @@ const Follow = () => {
         margin: "10rem 0 5rem 0",
         padding: "0rem 20rem 0 20rem",
         minHeight: "100%",
-        textAlign: "center"
+        textAlign: "center",
+        backgroundPosition: "fixed"
       }}
     >
-      <Text sx={{fontSize: "72px"}}>We are open Mondays to Fridays, 10 AM to 10 PM</Text>
+      <Text sx={{
+        fontSize: "72px", 
+        color: "#BDB2A7", 
+        textShadow: "2px 4px 3px rgba(0,0,0,0.3)"
+      }}>We are brewing Mondays to Fridays, 10 AM to 10 PM</Text>
     </BackgroundImage>
   )
 }
