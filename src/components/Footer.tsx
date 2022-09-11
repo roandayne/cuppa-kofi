@@ -61,7 +61,12 @@ const Footer = () => {
               minRows={3}
               maxRows={6}
             />
-            <Button sx={{marginTop: "20px", backgroundColor: "#BDB2A7"}}>Send</Button>
+            <Button sx={{
+              marginTop: "20px", 
+              backgroundColor: "#BDB2A7", 
+              "&:hover": {
+                backgroundColor: "#E8DACD"
+            }}}>Send</Button>
           </Box>
         </Box>
       </Box>
