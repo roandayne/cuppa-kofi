@@ -11,7 +11,7 @@ export default createStyles(() => ({
     top: "45%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    fontSize: "8rem",
+    fontSize: "6.5rem",
     // color: "black",
     // textShadow: "1px 1px rgba(255,255,255,0.8)"
 

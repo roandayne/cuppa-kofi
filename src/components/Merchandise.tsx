@@ -7,6 +7,7 @@ import _ from 'lodash';
 import axios from 'axios';
 import Product from './Product';
 import { Link } from 'gatsby';
+import ProductCard from './ProductCard';
 
 
 const Merchandise = () => {
@@ -24,30 +25,34 @@ const Merchandise = () => {
   
   return (
     <Box className={classes.mainContainer}>
-      <Text sx={{fontSize: "3rem"}}>Merchandise</Text>
-      <Box sx={{position: "relative", left: "50%", transform: "translate(-50%, 0)"}}>
-        <Carousel
-          height={400}
-          slideSize="30%"
-          slideGap="md"
-          align="start"
-        >
-          {
-            products.map((product: any) => {
-              return <Carousel.Slide key={product.id}>
-                <Product {...product} />
-              </Carousel.Slide>
-            })
-          }
-        </Carousel>
+      <Text sx={{fontSize: "3rem", marginBottom: "50px"}}>Merchandise</Text>
+      <Box sx={{
+        position: "relative", 
+        left: "50%",
+        transform: "translate(-50%, 0)", 
+        display: "flex",
+      }}>
+        {
+          products.filter((product: any) => product.trending).map((product: any) => {
+              return <ProductCard
+                imgSrc={product.image}
+                description={product.description}
+                name={product.name}
+              />
+          })
+        }
       </Box>
       <Box className={classes.buttonContainer}>
-        <Button>
-          <Link to="/menu">All Merchandise</Link>
+        <Button sx={{
+          backgroundColor: "#BDB2A7",
+          "&:hover": {
+            backgroundColor: "#E8DACD"
+          }
+        }}>
+          <Link to="/menu">All Merch</Link>
         </Button>
       </Box>
     </Box>
-    
   )
 }
 

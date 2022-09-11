@@ -11,12 +11,14 @@ export default createStyles(() => ({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
+    color: "#1F150F"
   },
   imageContainer: {
     height: "100%"
   },
   scroll: {
-    backgroundColor: "#c8a47e"
+    backgroundColor: "#948575",
+    color: "#1F150F"
   },
   link: {
     fontSize: "2rem"

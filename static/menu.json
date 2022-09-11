@@ -9,7 +9,8 @@
       "sp": {
         "grande": 50,
         "venti": 70
-      }
+      },
+      "trending": true
     },
     {
       "id": 2,
@@ -20,18 +21,20 @@
       "sp": {
         "grande": 55,
         "venti": 75
-      }
+      },
+      "trending": false
     },
     {
       "id": 3,
       "name": "Caramel Macchiato",
       "image": "./4.png",
       "category": "iced_coffee",
-      "description": "",
+      "description": "Intense, deep coffee notes. Nutty, earthy flavors – floral and lighter notes are destroyed by the high temperature.",
       "sp": {
         "grande": 90,
         "venti": 110
-      }
+      },
+      "trending": true
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "sp": {
         "grande": 60,
         "venti": 80
-      }
+      },
+      "trending": false
     },
     {
       "id": 5,
@@ -53,18 +57,20 @@
       "sp": {
         "grande": 90,
         "venti": 120
-      }
+      },
+      "trending": false
     },
     {
       "id": 6,
       "name": "Matcha Latte",
       "image": "./7.png",
       "category": "iced_coffee",
-      "description": "",
+      "description": "Intense, deep coffee notes. Nutty, earthy flavors – floral and lighter notes are destroyed by the high temperature.",
       "sp": {
         "grande": 80,
         "venti": 110
-      }
+      },
+      "trending": true
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       "sp": {
         "grande": 90,
         "venti": 120
-      }
+      },
+      "trending": false
     },
     {
       "id": 8,
@@ -86,7 +93,8 @@
       "sp": {
         "grande": 80,
         "venti": 110
-      }
+      },
+      "trending": false
     },
     {
       "id": 9,

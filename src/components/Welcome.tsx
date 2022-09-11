@@ -16,9 +16,6 @@ const Welcome = () => {
           <Image src='./right-image.jpg' alt="cuppa kofi cafe" />
         </Box>
       </Box>
-      {/* <Box className={classes.textureContainer}>
-        <Image style={{width: "500px", height: "100px"}} src='/texture.jpg' alt='texture' />
-      </Box> */}
     </>
   )
 }

@@ -2,7 +2,7 @@ import { createStyles } from "@mantine/core"
 
 export default createStyles(() => ({
   containier: {
-    background: "#c8a47e",
+    background: "#948575",
     boxShadow: "0 1px 1px 0 rgba(0, 0, 0, 0.12)",
     boxSizing: "border-box",
     width: '100%',
@@ -18,12 +18,14 @@ export default createStyles(() => ({
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
-    alignItems: "flex-start"
+    alignItems: "flex-start",
+    color: "#1F150F"
   },
   instagramContainer: {
     display: "flex", 
     alignItems: "center", 
     justifyContent: "center",
-    marginTop: "20px"
+    marginTop: "20px",
+    color: "#1F150F"
   }
 }))

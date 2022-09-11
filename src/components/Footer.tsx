@@ -30,7 +30,7 @@ const Footer = () => {
           <Image src='./logo.png' height={250} fit="contain" />
         </Box>
         <Box className={classes.logoContainer}>
-          <Text>CONTACTS</Text>
+          <Text>CONNECT WITH US</Text>
           <Box className={classes.instagramContainer}>
             <FaPhoneAlt style={{marginRight: "10px"}} /><Text>aestillore1@gmail.com</Text>
           </Box>
@@ -45,7 +45,7 @@ const Footer = () => {
           </Box>
         </Box>
         <Box className={classes.logoContainer}>
-          <Text>CONTACT US</Text>
+          <Text>GET IN TOUCH</Text>
           <Box sx={{width: "100%"}}>
             <TextInput
               sx={{marginTop: "20px"}}
@@ -61,7 +61,7 @@ const Footer = () => {
               minRows={3}
               maxRows={6}
             />
-            <Button sx={{marginTop: "20px"}}>Send</Button>
+            <Button sx={{marginTop: "20px", backgroundColor: "#BDB2A7"}}>Send</Button>
           </Box>
         </Box>
       </Box>

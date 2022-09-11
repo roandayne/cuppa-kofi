@@ -5,7 +5,7 @@ export default createStyles(() => ({
   mainContainer: {
     minHeight: "100%",
     display: "flex",
-    padding: "10rem 20rem 0 20rem"
+    padding: "10rem 20rem 0 20rem",
   },
   rightContainer: {
     width: "50vw",

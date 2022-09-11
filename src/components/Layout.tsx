@@ -1,4 +1,4 @@
-import { BoxProps, Box } from '@mantine/core'
+import { BoxProps, Box, MantineProvider } from '@mantine/core'
 import React from 'react'
 import Navigation from './Navigation'
 import Footer from './Footer'
@@ -10,7 +10,11 @@ interface LayoutProps extends BoxProps {
 
 const Layout: React.FC<LayoutProps> = ({children, ...props}) => {
   return (
-    <>
+    <MantineProvider
+      theme={{
+        fontFamily: 'Lexend Peta, sans-serif',
+      }}
+    >
       <Helmet>
         <title>Cuppa Kofi</title>
         <link
@@ -19,16 +23,18 @@ const Layout: React.FC<LayoutProps> = ({children, ...props}) => {
           sizes="16x16"
           href="/logo.png"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Combo&family=Lexend+Peta:wght@300&family=Noto+Sans+Buhid&family=Poppins:wght@300&family=Quicksand:wght@300;400;500;600;700&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet" />
       </Helmet>
       <Box sx={{
         display: "flex",
         flexDirection: "column",
+        backgroundColor: "#D8CFC6"
       }}>
         <Navigation />
         {children}
         <Footer />
       </Box>
-    </>
+    </MantineProvider>
     
   )
 }

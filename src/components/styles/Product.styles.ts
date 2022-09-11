@@ -15,12 +15,13 @@ export default createStyles(() => ({
   },
   text: {
     textAlign: "center",
-    fontSize: "24px",
+    fontSize: "18px",
     marginTop: "10px",
   },
   description: {
     padding: "20px",
-    textAlign: "center"
+    textAlign: "center",
+    fontSize: "12px"
   },
   price: {
     padding: "0 20px",

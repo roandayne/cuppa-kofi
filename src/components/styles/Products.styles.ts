@@ -3,7 +3,7 @@ import { createStyles } from "@mantine/core";
 export default createStyles(() => ({
   mainContainer: {
     minHeight: "100vh",
-    marginBottom: "100px"
+    marginBottom: "100px",
   },
   menuContainer: {
     padding: "0 10rem",
