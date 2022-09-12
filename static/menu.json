@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Americano",
-      "image": "./2.png",
+      "image": "./Americano.png",
       "category": "iced_coffee",
       "description": "Intense, deep coffee notes. Nutty, earthy flavors – floral and lighter notes are destroyed by the high temperature.",
       "sp": {
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "name": "Barista Drink",
-      "image": "./3.png",
+      "image": "./Barista_Drink.png",
       "category": "iced_coffee",
       "description": "Our Barista drink warmly welcomes customers into Cuppa Kofi. This variety serve you with the right amount of Espresso shots with a splash of breve and nutty cinnamon spice.",
       "sp": {
@@ -27,7 +27,7 @@
     {
       "id": 3,
       "name": "Caramel Macchiato",
-      "image": "./4.png",
+      "image": "./Caramel_Macchiato.png",
       "category": "iced_coffee",
       "description": "Intense, deep coffee notes. Nutty, earthy flavors – floral and lighter notes are destroyed by the high temperature.",
       "sp": {
@@ -39,7 +39,7 @@
     {
       "id": 4,
       "name": "Cold Foam",
-      "image": "./5.png",
+      "image": "./Cold_Foam.png",
       "category": "iced_coffee",
       "description": "",
       "sp": {
@@ -51,7 +51,7 @@
     {
       "id": 5,
       "name": "Cold Brew Affogato",
-      "image": "./6.png",
+      "image": "./Cold_Brew_Affogato.png",
       "category": "iced_coffee",
       "description": "",
       "sp": {
@@ -63,7 +63,7 @@
     {
       "id": 6,
       "name": "Matcha Latte",
-      "image": "./7.png",
+      "image": "./Matcha_Latte.png",
       "category": "iced_coffee",
       "description": "Intense, deep coffee notes. Nutty, earthy flavors – floral and lighter notes are destroyed by the high temperature.",
       "sp": {
@@ -75,7 +75,7 @@
     {
       "id": 7,
       "name": "Salted Caramel",
-      "image": "./8.png",
+      "image": "./Salted_Caramel.png",
       "category": "iced_coffee",
       "description": "",
       "sp": {
@@ -87,7 +87,7 @@
     {
       "id": 8,
       "name": "Spanish Latte",
-      "image": "./9.png",
+      "image": "./Spanish_Latte.png",
       "category": "iced_coffee",
       "description": "",
       "sp": {
@@ -99,42 +99,46 @@
     {
       "id": 9,
       "name": "Brewed Coffee",
-      "image": "./9.png",
+      "image": "./HOT_BREWED_COFFEE.png",
       "category": "hot_coffee",
       "description": "",
       "sp": {
         "grande": 40
-      }
+      },
+      "trending": false
     },
     {
       "id": 10,
       "name": "Barista Drink",
-      "image": "./9.png",
+      "image": "./HOT_BARISTA_DRINK.png",
       "category": "hot_coffee",
       "description": "",
       "sp": {
         "grande": 55
-      }
+      },
+      "trending": false
     },
     {
       "id": 11,
       "name": "Caramel Macchiato",
-      "image": "./9.png",
+      "image": "./HOT_CARAMEL_MACCHIATO.png",
       "category": "hot_coffee",
       "description": "",
       "sp": {
         "grande": 90
-      }
+      },
+      "trending": false
     },
     {
       "id": 12,
       "name": "Salted Caramel",
-      "image": "./9.png",
+      "image": "./HOT_SALTED_CARAMEL.png",
       "category": "hot_coffee",
       "description": "",
       "sp": {
         "grande": 90
-      }
+      },
+      "trending": false
     }
   ],
   "categories": [
