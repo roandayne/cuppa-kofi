@@ -35,6 +35,7 @@ const Merchandise = () => {
         {
           products.filter((product: any) => product.trending).map((product: any) => {
               return <ProductCard
+                key={product.name}
                 imgSrc={product.image}
                 description={product.description}
                 name={product.name}

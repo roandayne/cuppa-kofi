@@ -1,4 +1,5 @@
 import { BoxProps, Box, MantineProvider } from '@mantine/core'
+import { NotificationsProvider } from '@mantine/notifications';
 import React from 'react'
 import Navigation from './Navigation'
 import Footer from './Footer'
@@ -14,6 +15,8 @@ const Layout: React.FC<LayoutProps> = ({children, ...props}) => {
       theme={{
         fontFamily: 'Lexend Peta, sans-serif',
       }}
+      withNormalizeCSS 
+      withGlobalStyles
     >
       <Helmet>
         <title>Cuppa Kofi</title>
@@ -30,9 +33,12 @@ const Layout: React.FC<LayoutProps> = ({children, ...props}) => {
         flexDirection: "column",
         backgroundColor: "#D8CFC6"
       }}>
-        <Navigation />
-        {children}
-        <Footer />
+        <NotificationsProvider>
+          <Navigation />
+          {children}
+          <Footer />
+        </NotificationsProvider>
+        
       </Box>
     </MantineProvider>
     

@@ -25,16 +25,15 @@ const Product: React.FC<ProductProps> = ({id, name, image, description, category
       onMouseEnter={() => setIsShown(true)}
       onMouseLeave={() => setIsShown(false)}
     >
-      <BackgroundImage className={classes.backgroundImageContainer} src="./product-bg.jpg">
+      <BackgroundImage className={classes.backgroundImageContainer} src={image}>
         {isShown ? 
           <Box>
             <Text className={classes.description}>{description}</Text> 
             <Text className={classes.price}>Grande: {sp.grande}</Text>
             <Text className={classes.price}>Venti: {sp.venti}</Text>
           </Box> :
-          <Image src={image} />
+          <Box></Box>
         }
-        
       </BackgroundImage>
       <Text className={classes.text}>{name}</Text>
     </Box>

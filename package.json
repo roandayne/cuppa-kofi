@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@emotion/react": "^11.10.4",
     "@emotion/server": "^11.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
